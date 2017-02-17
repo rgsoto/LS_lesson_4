@@ -4,6 +4,6 @@ loop do
 
   if number.between?(0, 10)
     break
-  end
+    endw
 end
 
