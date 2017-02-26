@@ -1,8 +1,6 @@
-words = "the flintstones rock"
-
-words.split.map { |word| word.capitalize! }.join(' ')
-
-puts words
 
 
 
+words = "the flinstones rock"
+
+puts words.split.map {|word| word.capitalize}.join(' ')
